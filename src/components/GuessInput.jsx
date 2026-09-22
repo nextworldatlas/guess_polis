@@ -43,7 +43,6 @@ export function GuessInput({ onGuess, disabled, cities }) {
                     disabled={disabled}
                     className="guess-input"
                     autoFocus
-                    style={{ width: '100%', boxSizing: 'border-box' }}
                 />
                 {suggestions.length > 0 && (
                     <ul className="suggestions-list">

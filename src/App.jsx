@@ -38,7 +38,10 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <img src={`${import.meta.env.BASE_URL}logo_full.png`} alt="Guess Polis" className="logo" />
+        <div className="wordmark">
+          <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="wordmark-mark" />
+          <span className="wordmark-text">Guess Polis</span>
+        </div>
         <ScoreBoard streak={streak} history={history} />
       </header>
 
