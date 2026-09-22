@@ -121,6 +121,10 @@ body {
   white-space: nowrap;
 }
 
+.wordmark-colon {
+  color: var(--marker);
+}
+
 h1 {
   display: none;
 }

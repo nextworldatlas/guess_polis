@@ -28,7 +28,7 @@ function App() {
       return emojiMap[status];
     }).join(' ');
 
-    const text = `Guess Polis 🌍\nI got it in ${guesses.length} ${guesses.length === 1 ? 'try' : 'tries'}!\n\n${grid}\n\nguesspolis.com`;
+    const text = `Guess:Polis 🌍\nI got it in ${guesses.length} ${guesses.length === 1 ? 'try' : 'tries'}!\n\n${grid}\n\nguesspolis.com`;
 
     navigator.clipboard.writeText(text).then(() => {
       alert('Result copied to clipboard!');
@@ -40,7 +40,7 @@ function App() {
       <header className="header">
         <div className="wordmark">
           <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="wordmark-mark" />
-          <span className="wordmark-text">Guess Polis</span>
+          <span className="wordmark-text">Guess<span className="wordmark-colon">:</span>Polis</span>
         </div>
         <ScoreBoard streak={streak} history={history} />
       </header>

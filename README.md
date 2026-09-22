@@ -1,4 +1,4 @@
-# Guess Polis
+# Guess:Polis
 
 Identify cities from satellite imagery. Live at **https://guesspolis.nextworldatlas.com**
 
